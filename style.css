@@ -1,0 +1,140 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fondo{
+    background: hsl(225, 100%, 94%);
+    height: 100vh;
+}
+
+.imagen-fondo{
+    width: 100%;
+}
+
+.card{
+    width: 450px;
+    height: 730px;
+    background: #fff;
+    margin: auto;
+    position: fixed;
+    top: 100px;
+    right: 0;
+    left: 0;
+    border-radius: 20px;
+    
+    
+}
+
+.img{
+    width: 450px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.texto-card{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.titulo-card{
+    margin-bottom: 15px;
+    font-weight: 900;
+    font-size: 28px;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #1f2841;
+}
+
+.parrafo-card{
+    margin-top: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #686d88;
+}
+
+.plan{
+    width: 350px;
+    height: 100px;
+    background: #f1f3fa;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 20px;
+    
+}
+
+.imagen-plan{
+    width: 50px;
+    height: 50px;
+    padding: 25px 20px;
+    float: left;
+}
+
+.titulo-plan{
+    font-size: 18px;
+    padding-top: 25px;
+    font-weight: 900;
+    float: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.precio-plan{
+    float: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    color: #8488a0;
+    padding-top: 5px;
+}
+
+.cambio-plan{
+    float: right;
+    text-decoration: none;
+    position: relative;
+    top: -35px;
+    font-family: 'Red Hat Display', sans-serif;
+    padding-right: 30px;
+    color: #766CF1;
+    font-weight: 900;
+    font-size: 14px;
+
+}
+
+.boton{
+    margin: auto;
+    width: 350px;
+    height: 50px;
+    margin-top: 40px;
+    border-radius: 12px;
+    background: #766CF1;
+    display: flex;
+    justify-content: center;
+    -webkit-box-shadow: 1px 9px 25px 1px rgba(119,108,241,1);
+    -moz-box-shadow: 1px 9px 25px 1px rgba(119,108,241,1);
+    box-shadow: 1px 9px 25px 1px rgba(119,108,241,1);
+
+}
+
+.boton-pago{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 12px;
+    font-weight: 700;
+}
+
+.cancel{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.cancel-boton{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    color: #1f2841;
+}
+
+
